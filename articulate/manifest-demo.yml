@@ -3,5 +3,6 @@ applications:
   path: target/articulate-1.0.0.jar
   instances: 2
   memory: 800M
-  routes:
-  - route: articulatedemo.pcf.cloudnativeappdemos.net
+  random-route: true
+  #routes:
+  #- route: articulatedemo.pcf.cloudnativeappdemos.net
