@@ -1,5 +1,5 @@
 applications:
-- name: articulate-bright
+- name: articulate
   path: target/articulate-1.0.0.jar
   instances: 2
   memory: 800M
