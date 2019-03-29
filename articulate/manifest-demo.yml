@@ -4,4 +4,4 @@ applications:
   instances: 2
   memory: 800M
   routes:
-  - route: sys.pcf.cloudnativeappdemos.net/ArticulateDemo
+  - route: articulatedemo.sys.pcf.cloudnativeappdemos.net
