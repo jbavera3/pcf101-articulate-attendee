@@ -48,7 +48,7 @@ public class EnvironmentHelper {
     //Added to check the cloud based on api - Ahilan
     String cloudName = (String) getVcapApplicationMap().get("cf_api");
     logger.error("cloudName :{}", cloudName);
-    if (cloudName.equals("https://articulate.apps.pcf.cloudnativeappdemos.net")) {
+    if (cloudName.equals("https://api.sys.pcf.cloudnativeappdemos.net")) {
       cloudName = "AWS";
     }else{
       cloudName = "vSphere";
