@@ -34,7 +34,7 @@ cloud2-pcf-space: dev
  5. Edit pipeline.yml file under articulate/ci folder and modify the resources section to point to your github repo
  
 ```
-# GIT
+# GIT]
 - name: resource-git
   type: git
   source:
